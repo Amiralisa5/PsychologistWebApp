@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../PsychologistWebApp.Tests/PsychologistWebApp.Tests.csproj" />
+  <Project Path="PsychologistWebApp.csproj" />
+</Solution>
