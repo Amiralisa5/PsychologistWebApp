@@ -242,6 +242,28 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
+        .persian-content {
+            direction: rtl;
+            text-align: right;
+            font-family: Tahoma, 'Segoe UI', sans-serif;
+            font-size: 1.05rem;
+            line-height: 2.2;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: var(--bg-light);
+            border-right: 4px solid var(--accent-color);
+            border-radius: 8px;
+        }
+
+        .persian-content p {
+            margin-bottom: 1.25rem;
+        }
+
+        .persian-content p:last-child {
+            margin-bottom: 0;
+        }
+
         /* Footer */
         footer {
             background-color: var(--primary-color);
@@ -313,6 +335,11 @@
             .founder-profile {
                 flex-direction: column;
                 text-align: center;
+            }
+
+            .persian-content {
+                padding: 1.25rem;
+                font-size: 1rem;
             }
 
             .nav-link {
