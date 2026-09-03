@@ -1,4 +1,4 @@
-<%@ Page Title="Home - Professional Psychology Services" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PsychologistWebApp._Default" %>
+<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PsychologistWebApp._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <h2 class="section-title">Welcome to Mindful Care</h2>
+                        <h2 class="section-title">Welcome to DaseinJournal</h2>
                         <p class="section-subtitle">We're dedicated to providing compassionate, evidence-based mental health support in a safe, confidential environment.</p>
                         <p style="color: var(--text-light); font-size: 1rem; line-height: 1.8;">
                             Whether you're navigating life's challenges, managing mental health concerns, or seeking personal growth, 
@@ -81,7 +81,7 @@
         <!-- Why Choose Us Section -->
         <section class="section-spacing">
             <div class="container">
-                <h2 class="section-title" style="text-align: center; margin-bottom: 1rem;">Why Choose Mindful Care?</h2>
+                <h2 class="section-title" style="text-align: center; margin-bottom: 1rem;">Why Choose DaseinJournal?</h2>
                 
                 <div class="row g-4" style="margin-top: 2rem;">
                     <div class="col-md-6">

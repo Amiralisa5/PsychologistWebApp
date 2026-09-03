@@ -2,18 +2,20 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h2 id="title"><%: Title %>.</h2>
-        <h3>Your contact page.</h3>
+        <h2 id="title">Contact DaseinJournal</h2>
+        <h3>Connect with Hassan Agha Nasiri</h3>
+        <p><strong>Co-founder &amp; Therapist</strong><br />PhD Candidate in Psychology</p>
         <address>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399<br />
-            <abbr title="Phone">P:</abbr>
-            425.555.0100
+            <strong>Phone:</strong>
+            <a href="tel:+989125197973">09125197973</a><br />
+            <strong>Psychology Organization Registration No.:</strong> 85420
         </address>
 
         <address>
-            <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-            <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+            <strong>Telegram:</strong>
+            <a href="https://t.me/dasein_journal" target="_blank" rel="noopener noreferrer">t.me/dasein_journal</a><br />
+            <strong>Instagram:</strong>
+            <a href="https://instagram.com/dasein.journal" target="_blank" rel="noopener noreferrer">@dasein.journal</a>
         </address>
     </main>
 </asp:Content>

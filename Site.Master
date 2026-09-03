@@ -6,10 +6,10 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Professional Psychology Practice</title>
+    <title><%: Page.Title %> - DaseinJournal</title>
     
     <!-- Meta Tags for SEO -->
-    <meta name="description" content="Professional psychology and counseling services for your mental health and wellbeing." />
+    <meta name="description" content="DaseinJournal psychology and counseling services for mental health and wellbeing." />
     <meta name="theme-color" content="#2c5aa0" />
 
     <asp:PlaceHolder runat="server">
@@ -220,6 +220,28 @@
             padding: 4rem 0;
         }
 
+        /* Founder profile */
+        .founder-profile {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 2rem;
+            background-color: var(--bg-light);
+            border-radius: 8px;
+        }
+
+        .founder-photo {
+            width: 180px;
+            height: 180px;
+            flex: 0 0 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
         /* Footer */
         footer {
             background-color: var(--primary-color);
@@ -288,6 +310,11 @@
                 font-size: 1.5rem;
             }
 
+            .founder-profile {
+                flex-direction: column;
+                text-align: center;
+            }
+
             .nav-link {
                 margin-left: 0;
                 padding: 0.5rem 0;
@@ -321,7 +348,7 @@
         <!-- Navigation Header -->
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container">
-                <a class="navbar-brand" runat="server" href="~/">Mindful Care</a>
+                <a class="navbar-brand" runat="server" href="~/">DaseinJournal</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -348,23 +375,22 @@
         <footer>
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>Mindful Care Psychology Practice</h4>
+                    <h4>DaseinJournal</h4>
                     <div class="footer-contact">
-                        <p>📧 <a href="mailto:info@mindfulcare.com">info@mindfulcare.com</a></p>
-                        <p>📞 <a href="tel:+1-555-0100">(555) 0100</a></p>
-                        <p>📍 123 Wellness Street, Suite 200<br />Healing City, ST 12345</p>
+                        <p><strong>Hassan Agha Nasiri</strong><br />Co-founder &amp; Therapist<br />PhD Candidate in Psychology</p>
+                        <p>📞 <a href="tel:+989125197973">09125197973</a></p>
+                        <p>📋 Psychology Organization Registration No.: 85420</p>
                     </div>
                 </div>
                 <div class="footer-section">
-                    <h4>Hours</h4>
+                    <h4>Connect with us</h4>
                     <div class="footer-contact">
-                        <p>Monday - Thursday: 9:00 AM - 6:00 PM<br />
-                           Friday: 9:00 AM - 5:00 PM<br />
-                           By appointment only</p>
+                        <p>✈ <a href="https://t.me/dasein_journal" target="_blank" rel="noopener noreferrer">t.me/dasein_journal</a></p>
+                        <p>◎ <a href="https://instagram.com/dasein.journal" target="_blank" rel="noopener noreferrer">instagram.com/dasein.journal</a></p>
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    <p>&copy; <%: DateTime.Now.Year %> Mindful Care Psychology Practice. All rights reserved.</p>
+                    <p>&copy; <%: DateTime.Now.Year %> DaseinJournal. All rights reserved.</p>
                     <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
                 </div>
             </div>
